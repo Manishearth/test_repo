@@ -1,0 +1,7 @@
+sudo: false
+language: python
+
+script:
+  - true
+notifications:
+webhooks: http://build.servo.org/homu-test/travis
